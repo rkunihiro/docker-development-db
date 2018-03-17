@@ -1,0 +1,16 @@
+{
+    "name": "rkunihiro/docker-development-db",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ryoh Kunihiro",
+            "email": "11649545+rkunihiro@users.noreply.github.com"
+        }
+    ],
+    "scripts": {
+        "start": "docker-compose up -d",
+        "stop": "docker-compose stop",
+        "down": "docker-compose down",
+        "rebuild": ["composer down", "composer up"]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "docker-development-db",
+    "version": "1.0.0",
+    "main": "docker-compose.yml",
+    "author": "Ryoh Kunihiro <11649545+rkunihiro@users.noreply.github.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "docker-compose up -d",
+        "stop": "docker-compose stop",
+        "down": "docker-compose down",
+        "rebuild": "docker-compose down && docker-compose up -d"
+    }
+}

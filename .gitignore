@@ -1,0 +1,6 @@
+*.log
+*.swp
+/.idea/
+/node_modules/
+/vendor/
+!.gitignore
